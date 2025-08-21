@@ -149,6 +149,18 @@ export default function Portfolio() {
             >
               Get In Touch
             </a>
+            <a 
+              href="/cv.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                isDarkMode 
+                  ? 'border border-white hover:bg-white/10' 
+                  : 'border border-gray-900 hover:bg-gray-900/10'
+              }`}
+            >
+              My CV
+            </a>
           </div>
         </div>
       </section>
