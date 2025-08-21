@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Zap, Shield, Database, Code, Server, Cloud, Activity, Play, Instagram } from 'lucide-react';
+import { Zap, Shield, Database, Code, Server, Cloud, Activity, Instagram } from 'lucide-react';
 
 export default function Portfolio() {
   const [isVisible, setIsVisible] = useState(false);
@@ -162,7 +162,7 @@ export default function Portfolio() {
               <p className={`text-lg mb-6 transition-colors duration-300 ${
                 isDarkMode ? 'text-gray-300' : 'text-gray-600'
               }`}>
-                I'm a dedicated backend developer with a passion for creating efficient, scalable, and maintainable server-side applications. 
+                I&apos;m a dedicated backend developer with a passion for creating efficient, scalable, and maintainable server-side applications. 
                 My expertise lies in designing robust APIs, optimizing database performance, and implementing secure authentication systems.
               </p>
               <p className={`text-lg mb-6 transition-colors duration-300 ${
@@ -264,7 +264,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <div 
                 key={project.title}
                 className={`p-6 rounded-2xl hover:scale-105 transition-all duration-300 ${
@@ -311,7 +311,7 @@ export default function Portfolio() {
           <p className={`text-xl mb-12 transition-colors duration-300 ${
             isDarkMode ? 'text-gray-300' : 'text-gray-600'
           }`}>
-            I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life.
+            I&apos;m always interested in new opportunities and exciting projects. Let&apos;s discuss how we can bring your ideas to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a 
