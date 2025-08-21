@@ -307,7 +307,7 @@ export default function Portfolio() {
         isDarkMode ? 'bg-gray-900' : 'bg-gray-50'
       }`}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold mb-8">Let&apos;s Work Together</h2>
           <p className={`text-xl mb-12 transition-colors duration-300 ${
             isDarkMode ? 'text-gray-300' : 'text-gray-600'
           }`}>
